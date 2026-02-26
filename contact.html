@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinCalcPro — Contact</title>
+  <meta name="description" content="Contact the FinCalcPro team. Report a bug, request a feature, or ask a question.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">FinCalcPro</a>
+      <div class="nav-links">
+        <a href="contact.html">Contact</a>
+        <a href="#" class="btn btn-sm btn-primary">Add to Chrome</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact -->
+  <section class="contact">
+    <div class="container">
+      <h1 class="section-title">Contact us</h1>
+      <p class="section-sub">Have a question, issue, or feedback? Send us a message.</p>
+      <form class="contact-form" action="https://formsubmit.co/tylerthompsonnc@gmail.com" method="POST">
+        <!-- FormSubmit config -->
+        <input type="hidden" name="_subject" value="New FinCalcPro Contact Form Submission">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="subject">Subject</label>
+          <select class="form-select" id="subject" name="subject" required>
+            <option value="" disabled selected>Select a topic</option>
+            <option value="General">General Question</option>
+            <option value="Bug Report">Bug Report</option>
+            <option value="Refund Request">Refund Request</option>
+            <option value="Feature Request">Feature Request</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="refund.html">Refund Policy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 3rdVentures. FinCalcPro is not affiliated with Texas Instruments.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

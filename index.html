@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FinCalcPro — Financial Calculator for Chrome</title>
-  <meta name="description" content="A professional financial calculator right in your browser. TVM, NPV, IRR, amortization, bonds, and more. Free to use, Pro for $6.99.">
+  <meta name="description" content="A professional financial calculator that lives in Chrome's side panel. TVM, amortization, bonds, NPV/IRR, depreciation, and more. Free to start, $6.99 for lifetime Pro access.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@
         <a href="#features">Features</a>
         <a href="#pricing">Pricing</a>
         <a href="#faq">FAQ</a>
+        <a href="contact.html">Contact</a>
         <a href="#" class="btn btn-sm btn-primary">Add to Chrome</a>
       </div>
     </div>
@@ -29,21 +30,27 @@
   <section class="hero">
     <div class="container">
       <div class="hero-badge">Chrome Extension</div>
-      <h1 class="hero-title">The financial calculator<br>your browser was missing.</h1>
-      <p class="hero-sub">TVM, NPV, IRR, amortization, bonds, depreciation, and more — right in Chrome's side panel. No tabs, no clutter.</p>
+      <h1 class="hero-title">Stop Switching Tabs.<br>Your Financial Calculator Now Lives in Chrome.</h1>
+      <p class="hero-sub">TVM, amortization, bonds, NPV/IRR, depreciation, and more — instantly accessible in Chrome's side panel.</p>
       <div class="hero-ctas">
         <a href="#" class="btn btn-primary btn-lg">Add to Chrome — Free</a>
-        <a href="#pricing" class="btn btn-ghost btn-lg">See pricing</a>
+        <a href="#pricing" class="btn btn-ghost btn-lg">See Pricing</a>
       </div>
-      <p class="hero-note">Works on any page. Just click the icon.</p>
     </div>
   </section>
 
-  <!-- Screenshot -->
-  <section class="screenshot">
-    <div class="container">
-      <div class="screenshot-frame">
-        <img src="images/screenshot.png" alt="FinCalcPro calculator in Chrome side panel" width="380" loading="lazy">
+  <!-- Showcase -->
+  <section class="showcase">
+    <div class="container showcase-inner">
+      <div class="showcase-text">
+        <h2 class="showcase-heading">See it in action</h2>
+        <p class="showcase-desc">Enter your mortgage rate, loan amount, and term. FinCalcPro solves for your monthly payment instantly — no spreadsheet required.</p>
+        <p class="showcase-detail">The TVM solver handles the five core variables (N, I/Y, PV, PMT, FV) so you can solve any time-value-of-money problem in seconds.</p>
+      </div>
+      <div class="showcase-media">
+        <div class="showcase-frame">
+          <img src="images/screenshot.png" alt="FinCalcPro TVM solver calculating a mortgage payment" width="380" loading="lazy" onerror="this.style.display='none'">
+        </div>
       </div>
     </div>
   </section>
@@ -51,38 +58,23 @@
   <!-- Features -->
   <section class="features" id="features">
     <div class="container">
-      <h2 class="section-title">Everything you need</h2>
-      <p class="section-sub">Free tier covers the basics. Pro unlocks every worksheet and advanced feature.</p>
+      <h2 class="section-title">What you get</h2>
+      <p class="section-sub">A professional-grade financial calculator, purpose-built for Chrome.</p>
       <div class="features-grid">
-        <div class="card">
-          <div class="card-tag">Free</div>
-          <h3>TVM Solver</h3>
-          <p>N, I/Y, PV, PMT, FV — the five core time-value-of-money variables.</p>
+        <div class="pillar">
+          <div class="pillar-icon">TVM</div>
+          <h3>Time Value of Money — Built In</h3>
+          <p>Solve for N, I/Y, PV, PMT, or FV. Whether it's a mortgage, lease, or annuity — enter what you know and solve for the rest.</p>
         </div>
-        <div class="card">
-          <div class="card-tag">Free</div>
-          <h3>Scientific</h3>
-          <p>Trig, logarithms, exponents, parentheses, and full order of operations.</p>
+        <div class="pillar">
+          <div class="pillar-icon">PRO</div>
+          <h3>Professional Finance Worksheets</h3>
+          <p>Amortization schedules, bond pricing, depreciation, NPV/IRR, interest conversion, and more. The tools finance professionals actually use.</p>
         </div>
-        <div class="card">
-          <div class="card-tag">Free</div>
-          <h3>TIP Calculator</h3>
-          <p>Quick tip and bill-split calculations for everyday use.</p>
-        </div>
-        <div class="card">
-          <div class="card-tag card-tag--pro">Pro</div>
-          <h3>Cash Flows</h3>
-          <p>CF editor, NPV, and IRR for uneven cash flow analysis.</p>
-        </div>
-        <div class="card">
-          <div class="card-tag card-tag--pro">Pro</div>
-          <h3>7 Worksheets</h3>
-          <p>Amortization, Depreciation, Statistics, Bond Pricing, Date Calc, Interest Conversion, Profit Margin.</p>
-        </div>
-        <div class="card">
-          <div class="card-tag card-tag--pro">Pro</div>
-          <h3>ROI & More</h3>
-          <p>ROI calculator, BGN mode, P/Y settings, format control, and 10 memory registers.</p>
+        <div class="pillar">
+          <div class="pillar-icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="3" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><line x1="7" y1="3" x2="7" y2="17" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          <h3>Lives in Chrome's Side Panel</h3>
+          <p>One click opens your calculator alongside any page. No tab switching, no popups, no distractions. It's just there when you need it.</p>
         </div>
       </div>
     </div>
@@ -92,7 +84,7 @@
   <section class="pricing" id="pricing">
     <div class="container">
       <h2 class="section-title">Simple pricing</h2>
-      <p class="section-sub">Start free. Go Pro when you need more.</p>
+      <p class="section-sub">Most finance apps charge $20–$40 per year. FinCalcPro is a one-time payment.</p>
       <div class="pricing-grid">
 
         <!-- Free -->
@@ -114,7 +106,7 @@
         <div class="price-card price-card--pro">
           <div class="price-badge">Best Value</div>
           <h3>Pro</h3>
-          <div class="price-amount">$6.99 <span>one-time</span></div>
+          <div class="price-amount">$6.99 <span>Lifetime Access</span></div>
           <ul>
             <li>Everything in Free, plus:</li>
             <li>Cash Flows (CF / NPV / IRR)</li>
@@ -131,8 +123,12 @@
             <li>Format control</li>
             <li>10 memory registers</li>
           </ul>
-          <a href="#" class="btn btn-primary btn-full">Get Pro — $6.99</a>
-          <p class="price-fine">Pay once. Yours forever. Secure checkout via Stripe.</p>
+          <a href="#" class="btn btn-primary btn-full">Unlock Lifetime Access — $6.99</a>
+          <div class="trust-signals">
+            <span>&#10004; Secure Stripe Checkout</span>
+            <span>&#10004; Instant Access</span>
+            <span>&#10004; No Refunds (unless software issue)</span>
+          </div>
         </div>
       </div>
     </div>
@@ -141,7 +137,7 @@
   <!-- FAQ -->
   <section class="faq" id="faq">
     <div class="container">
-      <h2 class="section-title">FAQ</h2>
+      <h2 class="section-title">Frequently asked questions</h2>
       <div class="faq-list">
         <details class="faq-item">
           <summary>Is this affiliated with Texas Instruments?</summary>
@@ -160,8 +156,8 @@
           <p>Install the Chrome extension, then click the FinCalcPro icon in your toolbar. It opens as a side panel alongside whatever page you're on.</p>
         </details>
         <details class="faq-item">
-          <summary>What if I want a refund?</summary>
-          <p>We offer refunds within 7 days of purchase, no questions asked. Just reach out via email.</p>
+          <summary>What is the refund policy?</summary>
+          <p>All sales are final. If you experience a bug or technical issue that prevents the calculator from working as described, contact us and we will issue a full refund. We encourage you to try the free tier before purchasing.</p>
         </details>
       </div>
     </div>
@@ -174,9 +170,9 @@
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
         <a href="refund.html">Refund Policy</a>
-        <a href="mailto:tylerthompsonnc@gmail.com">Contact</a>
+        <a href="contact.html">Contact</a>
       </div>
-      <p class="footer-copy">&copy; 2025 3rdVentures. FinCalcPro is not affiliated with Texas Instruments.</p>
+      <p class="footer-copy">&copy; 2026 3rdVentures. FinCalcPro is not affiliated with Texas Instruments.</p>
     </div>
   </footer>
 
