@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinCalcPro — Financial Calculator for Chrome</title>
+  <meta name="description" content="A professional financial calculator right in your browser. TVM, NPV, IRR, amortization, bonds, and more. Free to use, Pro for $6.99.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">FinCalcPro</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#" class="btn btn-sm btn-primary">Add to Chrome</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">Chrome Extension</div>
+      <h1 class="hero-title">The financial calculator<br>your browser was missing.</h1>
+      <p class="hero-sub">TVM, NPV, IRR, amortization, bonds, depreciation, and more — right in Chrome's side panel. No tabs, no clutter.</p>
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-primary btn-lg">Add to Chrome — Free</a>
+        <a href="#pricing" class="btn btn-ghost btn-lg">See pricing</a>
+      </div>
+      <p class="hero-note">Works on any page. Just click the icon.</p>
+    </div>
+  </section>
+
+  <!-- Screenshot -->
+  <section class="screenshot">
+    <div class="container">
+      <div class="screenshot-frame">
+        <img src="images/screenshot.png" alt="FinCalcPro calculator in Chrome side panel" width="380" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Everything you need</h2>
+      <p class="section-sub">Free tier covers the basics. Pro unlocks every worksheet and advanced feature.</p>
+      <div class="features-grid">
+        <div class="card">
+          <div class="card-tag">Free</div>
+          <h3>TVM Solver</h3>
+          <p>N, I/Y, PV, PMT, FV — the five core time-value-of-money variables.</p>
+        </div>
+        <div class="card">
+          <div class="card-tag">Free</div>
+          <h3>Scientific</h3>
+          <p>Trig, logarithms, exponents, parentheses, and full order of operations.</p>
+        </div>
+        <div class="card">
+          <div class="card-tag">Free</div>
+          <h3>TIP Calculator</h3>
+          <p>Quick tip and bill-split calculations for everyday use.</p>
+        </div>
+        <div class="card">
+          <div class="card-tag card-tag--pro">Pro</div>
+          <h3>Cash Flows</h3>
+          <p>CF editor, NPV, and IRR for uneven cash flow analysis.</p>
+        </div>
+        <div class="card">
+          <div class="card-tag card-tag--pro">Pro</div>
+          <h3>7 Worksheets</h3>
+          <p>Amortization, Depreciation, Statistics, Bond Pricing, Date Calc, Interest Conversion, Profit Margin.</p>
+        </div>
+        <div class="card">
+          <div class="card-tag card-tag--pro">Pro</div>
+          <h3>ROI & More</h3>
+          <p>ROI calculator, BGN mode, P/Y settings, format control, and 10 memory registers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Simple pricing</h2>
+      <p class="section-sub">Start free. Go Pro when you need more.</p>
+      <div class="pricing-grid">
+
+        <!-- Free -->
+        <div class="price-card">
+          <h3>Free</h3>
+          <div class="price-amount">$0</div>
+          <ul>
+            <li>TVM Solver (N, I/Y, PV, PMT, FV)</li>
+            <li>Arithmetic & parentheses</li>
+            <li>Scientific functions</li>
+            <li>TIP calculator</li>
+            <li>2 memory registers</li>
+            <li>Calculation history</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-full">Download Free</a>
+        </div>
+
+        <!-- Pro -->
+        <div class="price-card price-card--pro">
+          <div class="price-badge">Best Value</div>
+          <h3>Pro</h3>
+          <div class="price-amount">$6.99 <span>one-time</span></div>
+          <ul>
+            <li>Everything in Free, plus:</li>
+            <li>Cash Flows (CF / NPV / IRR)</li>
+            <li>Amortization</li>
+            <li>Depreciation</li>
+            <li>Statistics</li>
+            <li>Bond Pricing</li>
+            <li>Date Calculations</li>
+            <li>Interest Conversion</li>
+            <li>Profit & Breakeven</li>
+            <li>ROI Calculator</li>
+            <li>BGN/END mode</li>
+            <li>P/Y & C/Y settings</li>
+            <li>Format control</li>
+            <li>10 memory registers</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-full">Get Pro — $6.99</a>
+          <p class="price-fine">Pay once. Yours forever. Secure checkout via Stripe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Is this affiliated with Texas Instruments?</summary>
+          <p>No. FinCalcPro is an independent product. It performs the same financial calculations but is not made by or affiliated with TI.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What does "one-time" mean?</summary>
+          <p>Pay $6.99 once and you have Pro access forever. No subscriptions, no renewals, no expiration.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I try before buying?</summary>
+          <p>Yes. The free tier includes the full TVM solver, scientific functions, and TIP calculator. Try everything before deciding to upgrade.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How do I access the calculator?</summary>
+          <p>Install the Chrome extension, then click the FinCalcPro icon in your toolbar. It opens as a side panel alongside whatever page you're on.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What if I want a refund?</summary>
+          <p>We offer refunds within 7 days of purchase, no questions asked. Just reach out via email.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="refund.html">Refund Policy</a>
+        <a href="mailto:tylerthompsonnc@gmail.com">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 3rdVentures. FinCalcPro is not affiliated with Texas Instruments.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
